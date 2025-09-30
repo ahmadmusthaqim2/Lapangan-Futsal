@@ -1,0 +1,35 @@
+:where([class^="ri-"])::before { content: "\f3c2"; }
+      body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      }
+      input:focus, button:focus {
+      outline: none;
+      }
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+      }
+      .time-slot {
+      transition: all 0.3s ease;
+      }
+      .time-slot:hover {
+      transform: translateY(-2px);
+      }
+      .time-slot.selected {
+      border-color: #10b981;
+      background-color: rgba(16, 185, 129, 0.1);
+      }
+      .payment-option {
+      transition: all 0.2s ease;
+      }
+      .payment-option:hover {
+      transform: translateY(-2px);
+      }
+      .payment-option.selected {
+      border-color: #10b981;
+      background-color: rgba(16, 185, 129, 0.1);
+      }
+
+      
